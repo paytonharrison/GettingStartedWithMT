@@ -243,8 +243,8 @@ public class TestAlgorithms {
 		followUp.shortestPath(graph, 0);
 		int followUpDist = followUp.getShortestPathFrom(5,5);
 		
-		assertEquals(followUpDist, -1);		//0
-		assertEquals((followUpDist + 12), srcDist);		//+11
+		assertEquals(followUpDist, -1);		
+		assertEquals((followUpDist + 12), srcDist);		
 	}
 
 }
